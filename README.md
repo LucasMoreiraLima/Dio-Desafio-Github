@@ -1,2 +1,2 @@
 # Sobre mim e meu progresso como dev
-Certificados, atividades concluídas e etc.
+Atividades concluídas e etc.
