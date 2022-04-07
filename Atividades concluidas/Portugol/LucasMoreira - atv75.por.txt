@@ -1,0 +1,26 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro numero=99
+	
+	//Lucas Moreira Lima 2º ano Informática
+	
+	faca {
+		numero = numero + 1
+	    se(numero % 2 == 1){
+	    	escreva(numero, " Ímpar\n")
+	    }senao{
+	    	escreva(numero, "\n")
+	    }
+		
+		
+	}enquanto (numero >= 100 e numero <= 200)
+		
+		
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,19 @@
+programa {
+	funcao inicio() {
+		real h, calculo
+		cadeia sx
+		escreva("Digite sua altura: \n")
+		leia (h)
+		escreva("Digite seu sexo: (Masculino e Feminino)\n")
+		leia (sx)
+		//
+		se (sx=="Masculino"){
+		    calculo= (72.7*h) - 58
+		    escreva ("Seu peso ideal: ", calculo)
+		}
+		senao {
+		  calculo= (62.1*h) - 44.7
+		  escreva ("Seu peso ideal: ", calculo)  
+		}
+	}
+}

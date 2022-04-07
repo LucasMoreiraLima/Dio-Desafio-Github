@@ -1,0 +1,14 @@
+programa {
+	funcao inicio() {
+		inteiro valor
+		escreva ("Escreva o valor da faixa: \n")
+		leia (valor)
+		
+		se ((valor >= 1) e (valor < 10)){
+		    escreva ("Valor esta dentro da faixa permitida")
+		}
+		senao {
+		    escreva ("Valor esta fora da faixa permitida")
+		}
+	}
+}

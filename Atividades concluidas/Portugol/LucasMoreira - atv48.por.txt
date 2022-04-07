@@ -1,0 +1,16 @@
+programa{
+  
+  funcao inicio(){
+    inteiro valor
+    
+    escreva("Digite um número inteiro: ")
+    leia(valor)
+
+    se(valor % 2 == 1){
+      escreva("O número digitado é ímpar\n")
+    }
+    senao{
+      escreva("O número digitado é par\n")
+    }
+  }
+}

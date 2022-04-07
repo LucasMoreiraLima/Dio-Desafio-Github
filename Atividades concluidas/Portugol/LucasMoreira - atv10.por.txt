@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio ()
+	{
+	real preco, total
+	inteiro quantidade
+	
+	//Lucas Moreira Lima, 2° Ano Informática
+	
+	escreva("Preço do Kw/h: \n")
+	leia(preco)
+	
+	escreva("Quantidade de Kw/h consumido: \n")
+	leia(quantidade)
+	
+	//
+	total = 11.20 + preco * quantidade
+	//
+		
+	escreva("Total a pagar: ", total)	
+		
+		
+		
+	}
+}

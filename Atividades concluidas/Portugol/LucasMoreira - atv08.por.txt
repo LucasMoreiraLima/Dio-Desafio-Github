@@ -1,0 +1,31 @@
+programa
+{
+	funcao inicio ()
+	{
+	real n1, n2
+	
+	//Lucas Moreira Lima 2º ano Informática
+	
+	escreva("Digite um número: \n")
+	leia(n1)
+	escreva("Digite outro número: \n")	
+	leia(n2)	
+		
+	se(n1>n2){
+		escreva(n1," ", n2)
+	}	
+	
+	senao se(n2>n1){
+		escreva(n2," ", n1)
+	}
+	senao{
+		escreva("Números iguais")
+	}
+		
+		
+		
+		
+		
+		
+	}
+}

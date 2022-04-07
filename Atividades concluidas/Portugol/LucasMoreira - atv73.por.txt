@@ -1,0 +1,30 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro numero, maior
+	
+	//Lucas Moreira Lima 2º ano Informática
+	
+	escreva("Digite um número: \n")
+	leia(numero)
+	
+	faca {
+		
+		escreva("Digite outro número: \n")
+		leia(numero)
+		
+		se(maior < numero){
+			maior = numero
+		}
+		
+	}enquanto (numero != 0)
+	 escreva("O maior número foi: ", maior)
+		
+		
+		
+		
+		
+		
+	}
+}

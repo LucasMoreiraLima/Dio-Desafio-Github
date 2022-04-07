@@ -1,0 +1,26 @@
+programa
+{
+	funcao inicio ()
+	{
+	inteiro numero=0
+	
+	//Lucas Moreira Lima 2º ano Informática
+	
+	faca {
+		numero = numero + 1
+	    se(numero % 10 == 0){
+	    	escreva(numero, " Múltiplos de 10\n")
+	    }senao{
+	    	escreva(numero, "\n")
+	    }
+		
+		
+	}enquanto (numero <= 100)
+		
+		
+		
+		
+		
+		
+	}
+}
