@@ -1,2 +1,2 @@
-# Dio-Desafio-Github
-Desafio de projeto no github da DIO
+# Sobre mim e meu progresso como dev
+Certificados, atividades concluídas e etc.
