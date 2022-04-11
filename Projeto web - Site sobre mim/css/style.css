@@ -1,0 +1,21 @@
+.navbar {
+	background-color: 	#556B2F;
+	font: 25px Verdana, sans-serif;
+}
+
+.quem-sou{
+	background-color: 	#BDB76B;
+	font: 20px Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+.margin{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.redes-sociais {
+	background-color: #2F4F4F;
+}
+.devpor {
+	background-color: #5F9EA0;
+}
