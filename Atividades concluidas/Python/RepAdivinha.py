@@ -1,5 +1,5 @@
-import random
-c=co=alc=0
+from random import randint
+c=alc=0
 while c == 0:
     print('---' * 10)
     print('Bem-Vindo ao jogo do Adivinha!')
@@ -23,59 +23,43 @@ while c == 0:
         if con == 1:
             print('\033[1;31mAlterado para Vermelho!')
             print('---' * 10)
+            continue
         if con == 2:
             print('\033[1;34mAlterado para Azul')
             print('---' * 10)
+            continue
         if con == 3:
             print('\033[1;33mAlterado para Amarelo')
             print('---' * 10)
+            continue
         if con == 4:
             print('\033[0;0mResetado para a cor Padrão')
             print('---' * 10)
+            continue
 if c == 1:
     alc = 5
-    Nstr1 = random.randint(1, 15)
+    lu = 'Digite um número de 1 a 15\n:'
+    Nstr1 = randint(1, 15)
 if c == 2:
     alc = 4
-    Nstr1 = random.randint(1, 50)
+    lu = 'Digite um número de 1 a 50\n:'
+    Nstr1 = randint(1, 50)
 if c == 3:
     alc = 3
-    Nstr1 = random.randint(1, 100)
-if alc == 4:
-    co = 1
-if alc == 3:
-    co = 2 
-for i in range(alc):
-    if c == 1:
-        nmr = int(input('Digite um número de 1 a 15\n:'))
-        print('---' * 12)
-        co += 1
-    if c == 2:
-        nmr = int(input('Digite um número de 1 a 50\n:'))
-        print('---' * 12)
-        co += 1
-    if c == 3:
-        nmr = int(input('Digite um número de 1 a 100\n:'))
-        print('---' * 12)
-        co += 1
-    if co == 1 and nmr != Nstr1:
-        print('Perdeu Uma(1) Vida te restam Quatro(4)')
-        print('---' * 12)
-    if co == 2 and nmr != Nstr1:
-        print('Perdeu Uma(1) Vida te restam Três(3)')
-        print('---' * 12)
-    if co == 3 and nmr != Nstr1:
-        print('Perdeu Uma(1) Vida te restam Duas(2)')
-        print('---' * 12)
-    if co == 4 and nmr != Nstr1:
-        print('Perdeu Uma(1) Vida te resta Uma(1)')
-        print('---' * 12)
+    lu = 'Digite um número de 1 a 100\n:'
+    Nstr1 = randint(1, 100)
+for i in range(1, alc+1):
+    nmr = int(input(lu))
+    print('---' * 12)
+    print(f'Te resta {i} vidas de {alc}')
     if nmr > Nstr1 and nmr != Nstr1:
         print('Número maior que o sorteado')
         print('---' * 12)
+        continue
     if nmr < Nstr1 and nmr != Nstr1:
         print('Número menor que o sorteado')
         print('---' * 12)
+        continue
     if nmr == Nstr1:
         print('\033[1;31mParabéns! Acertou o número\033[0;0m')
         print('---' * 12)
